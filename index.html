@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>م. أحمد حسن كوبج | مهندس زراعي - موالح</title>
+<meta name="description" content="أحمد حسن كوبج، مهندس زراعي متخصص في الموالح، مسؤول عن الإدارة الزراعية لـ 200 فدان موالح بشركة دالتكس للتطوير الزراعي.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Cairo:wght@300;400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- خلفية نمط أوراق ثابتة -->
+<div class="grain-overlay"></div>
+
+<!-- شريط التنقل -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">أ.ح<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">نبذة</a>
+      <a href="#journey" class="nav-link">المسيرة المهنية</a>
+      <a href="#groves" class="nav-link">الأصناف المُدارة</a>
+      <a href="#operations" class="nav-link">العمليات الزراعية</a>
+      <a href="#education" class="nav-link">التعليم</a>
+      <a href="#contact" class="nav-link">تواصل</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- قسم البداية -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <svg class="branch-svg" id="branchSvg" viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice">
+      <path class="branch-line" id="branchPath" d="M 780 700 C 760 560 640 480 560 430 C 480 380 460 300 470 220 C 478 155 520 90 560 40"
+            fill="none" stroke="#4C7A52" stroke-width="4"/>
+      <path class="branch-line branch-2" id="branchPath2" d="M 620 430 C 560 400 500 420 450 470 C 400 520 380 580 390 650"
+            fill="none" stroke="#4C7A52" stroke-width="3"/>
+    </svg>
+    <div class="fruit-field" id="fruitField"></div>
+  </div>
+
+  <div class="hero-content">
+    <p class="hero-eyebrow"><span class="eyebrow-dot"></span> مهندس زراعي — قسم الموالح</p>
+    <h1 class="hero-name">المهندس أحمد حسن<br>كوبج</h1>
+    <p class="hero-role">
+      مسؤول العمليات الزراعية لـ <strong class="count-target" data-target="200">0</strong> فدان موالح
+      <span class="hero-role-sep">·</span> شركة دالتكس للتطوير الزراعي
+      <span class="hero-role-sep">·</span> فرع الخير، النوبارية
+    </p>
+    <div class="hero-actions">
+      <a href="#journey" class="btn btn-primary">المسيرة المهنية</a>
+      <a href="#contact" class="btn btn-ghost">تواصل معي</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span>مرر لأسفل</span>
+    <div class="scroll-line"><i></i></div>
+  </div>
+</section>
+
+<!-- نبذة -->
+<section class="section about" id="about">
+  <div class="container about-grid">
+    <div class="reveal about-visual">
+      <div class="avatar-frame">
+        <img src="profile.png" alt="صورة المهندس أحمد حسن كوبج" class="avatar-photo">
+      </div>
+      <div class="badge-card">
+        <span class="badge-num">2000</span>
+        <span class="badge-label">مواليد 11 سبتمبر</span>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p class="eyebrow reveal">نبذة</p>
+      <h2 class="reveal">خبرة ميدانية متراكمة في إدارة بساتين الموالح والفاكهة</h2>
+      <p class="reveal body-text">
+        مهندس زراعي متخصص في محاصيل الموالح، بخبرة عملية في الإشراف الكامل على العمليات
+        الزراعية من ري ومكافحة وخدمة أرض، امتدت من بساتين الزيتون والمانجو والخوخ في المنيا
+        إلى إدارة مساحات موالح واسعة حالياً في النوبارية.
+      </p>
+      <div class="about-facts reveal">
+        <div class="fact">
+          <span class="fact-label">تاريخ الميلاد</span>
+          <span class="fact-value">11 / 9 / 2000</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">العنوان</span>
+          <span class="fact-value">منشأة راغب، مركز دمنهور، البحيرة</span>
+        </div>
+        <div class="fact">
+          <span class="fact-label">التخصص</span>
+          <span class="fact-value">هندسة زراعية — موالح</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- المسيرة المهنية -->
+<section class="section journey" id="journey">
+  <div class="container">
+    <p class="eyebrow reveal">المسيرة المهنية</p>
+    <h2 class="reveal">من بساتين المنيا إلى موالح النوبارية</h2>
+
+    <div class="timeline" id="timeline">
+      <div class="timeline-track"><div class="timeline-progress" id="timelineProgress"></div></div>
+
+      <div class="tl-item reveal">
+        <div class="tl-marker">🍊</div>
+        <div class="tl-card">
+          <span class="tl-date">البداية</span>
+          <h3>شركة المغربي</h3>
+          <p class="tl-crop">قسم الموالح</p>
+          <p>العمل الميداني الأول في متابعة عمليات إنتاج وخدمة أشجار الموالح.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-marker">🫒</div>
+        <div class="tl-card">
+          <span class="tl-date">المرحلة الثانية</span>
+          <h3>شركة سقارة — فرع المنيا</h3>
+          <p class="tl-crop">زيتون · مانجو · خوخ</p>
+          <p>
+            مسؤول عن <strong>200 فدان</strong> بجميع عملياتها الزراعية: الخدمة الأرضية،
+            برامج المكافحة، وجدولة الري لثلاثة محاصيل مختلفة في آن واحد.
+          </p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal current">
+        <div class="tl-marker">🍊</div>
+        <div class="tl-card">
+          <span class="tl-date">حالياً</span>
+          <h3>شركة دالتكس للتطوير الزراعي</h3>
+          <p class="tl-crop">فرع الخير — النوبارية</p>
+          <p>
+            مهندس موالح مسؤول عن الإدارة الزراعية الكاملة لـ <strong>200 فدان</strong> موالح:
+            متابعة الري، برامج المكافحة، والخدمة الزراعية اليومية للبستان.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الأصناف المدارة -->
+<section class="section groves" id="groves">
+  <div class="container">
+    <p class="eyebrow reveal light">الأصناف المُدارة</p>
+    <h2 class="reveal light">بستان دالتكس — 200 فدان موالح</h2>
+    <p class="reveal light section-sub">توزّع المساحة على خمسة أصناف رئيسية من الموالح، تحت إشراف زراعي مستمر من الشتلة إلى القطف.</p>
+
+    <div class="orchard-grid reveal" id="orchardGrid" aria-label="خريطة توضيحية لأصناف الموالح المُدارة"></div>
+
+    <div class="variety-cards">
+      <div class="variety-card reveal">
+        <span class="v-icon">🍊</span>
+        <h3>يوسفي تانجو</h3>
+        <p>صنف مبكر عالي الجودة ضمن مجموعة اليوسفي.</p>
+      </div>
+      <div class="variety-card reveal">
+        <span class="v-icon">🍊</span>
+        <h3>يوسفي ميراف</h3>
+        <p>يوسفي عديم البذور، إقبال تسويقي مرتفع.</p>
+      </div>
+      <div class="variety-card reveal">
+        <span class="v-icon">🍊</span>
+        <h3>برتقال صيفي (فالنسيا)</h3>
+        <p>صنف متأخر النضج، يمتد موسم قطفه للصيف.</p>
+      </div>
+      <div class="variety-card reveal">
+        <span class="v-icon">🍊</span>
+        <h3>برتقال بسرة</h3>
+        <p>صنف متوسط النضج ضمن دورة الإنتاج السنوية.</p>
+      </div>
+      <div class="variety-card reveal">
+        <span class="v-icon">🍊</span>
+        <h3>برتقال بلدي</h3>
+        <p>صنف محلي عريق ضمن تشكيلة البستان.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- العمليات الزراعية -->
+<section class="section operations" id="operations">
+  <div class="container">
+    <p class="eyebrow reveal">مسؤوليات الإدارة الميدانية</p>
+    <h2 class="reveal">إشراف كامل على دورة الإنتاج الزراعي</h2>
+
+    <div class="ops-grid">
+      <div class="ops-card reveal">
+        <span class="ops-icon">💧</span>
+        <h3>إدارة الري</h3>
+        <p>جدولة ومتابعة برامج الري لضمان احتياج الأشجار المائي في كل مرحلة نمو.</p>
+      </div>
+      <div class="ops-card reveal">
+        <span class="ops-icon">🛡️</span>
+        <h3>برامج المكافحة</h3>
+        <p>متابعة دورية للآفات والأمراض وتطبيق برامج المكافحة المناسبة لكل صنف.</p>
+      </div>
+      <div class="ops-card reveal">
+        <span class="ops-icon">🌱</span>
+        <h3>الخدمة الزراعية</h3>
+        <p>الإشراف على التسميد والتقليم وخدمة الأرض على مدار الموسم.</p>
+      </div>
+      <div class="ops-card reveal">
+        <span class="ops-icon">📋</span>
+        <h3>الإدارة الميدانية</h3>
+        <p>تنسيق فرق العمل ومتابعة التنفيذ اليومي على مستوى الـ 200 فدان.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- التعليم -->
+<section class="section education" id="education">
+  <div class="container edu-grid">
+    <div class="reveal">
+      <p class="eyebrow">التعليم</p>
+      <h2>كلية الزراعة — سابا باشا</h2>
+    </div>
+    <div class="edu-card reveal">
+      <h3>جامعة الإسكندرية</h3>
+      <p>بكالوريوس العلوم الزراعية — كلية الزراعة سابا باشا</p>
+      <div class="edu-grade">
+        <span class="grade-label">التقدير العام</span>
+        <span class="grade-value">جيد جداً</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- تواصل -->
+<section class="section contact" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <p class="eyebrow light">تواصل</p>
+      <h2 class="light">لنتحدث عن فرص التعاون</h2>
+      <p class="section-sub light">متاح للتواصل بخصوص فرص العمل أو الاستشارات في مجال إدارة بساتين الموالح.</p>
+
+      <ul class="contact-list reveal">
+        <li>
+          <span class="contact-label">البريد الإلكتروني</span>
+          <a href="mailto:ahmed010603@gmail.com" class="contact-value">ahmed010603@gmail.com</a>
+        </li>
+        <li>
+          <span class="contact-label">واتساب</span>
+          <a href="https://wa.me/201010937209" target="_blank" rel="noopener" class="contact-value">+20 101 093 7209</a>
+        </li>
+        <li>
+          <span class="contact-label">العنوان</span>
+          <span class="contact-value">منشأة راغب، مركز دمنهور، البحيرة</span>
+        </li>
+      </ul>
+    </div>
+
+    <form class="contact-form reveal" id="contactForm">
+      <div class="form-row">
+        <label for="cf-name">الاسم</label>
+        <input type="text" id="cf-name" name="name" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-email">البريد الإلكتروني</label>
+        <input type="email" id="cf-email" name="email" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-msg">الرسالة</label>
+        <textarea id="cf-msg" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">إرسال الرسالة</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> أحمد حسن كوبج — مهندس زراعي، موالح</span>
+    <a href="#hero" class="footer-top">أعلى الصفحة ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
